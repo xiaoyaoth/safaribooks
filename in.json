@@ -1,0 +1,30 @@
+[
+{
+    "domain": ".oreilly.com",
+    "expirationDate": 1692377064,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "aaa",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "bbb",
+    "id": 1
+},
+{
+    "domain": ".oreilly.com",
+    "expirationDate": 1692377061,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "ccc",
+    "path": "/",
+    "sameSite": "unspecified",
+    "secure": false,
+    "session": false,
+    "storeId": "0",
+    "value": "ddd",
+    "id": 2
+}
+]
