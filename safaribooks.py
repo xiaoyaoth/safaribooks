@@ -814,8 +814,10 @@ class SafariBooks:
 
             # Images
             if "images" in next_chapter and len(next_chapter["images"]):
-                self.images.extend(urljoin(next_chapter['asset_base_url'], img_url)
+                image_base_url = "https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781491974285/files/"
+                self.images.extend(urljoin(image_base_url, img_url)
                                    for img_url in next_chapter['images'])
+                # print(self.images)
 
             # Stylesheets
             self.chapter_stylesheets = []
